@@ -1,21 +1,91 @@
-<<<<<<< HEAD
-# React + Vite
+# 🍽️ Food Ordering Web App (React.js)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🧩 Project Overview
+A responsive food ordering web app built with **React.js**, inspired by *FoodChow Demo India*.  
+It demonstrates skills in **API integration**, **state management**, and **responsive UI design**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+**Reference:** https://parth-p1702.github.io/Personal-Project/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Main Features
+- **Live Menu:** Fetch real restaurant data from API  
+- **Shopping Cart:** Add/remove items with quantity  
+- **Responsive Design:** Works on all devices  
+- **Service Options:** Take Away, Dine-in, Delivery  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Personal-Project
-Project for Tenacious Techies Team
->>>>>>> e25aca88e075528b646fe96bfdc634cdd04c0878
+## 🛠️ Tech Highlights
+- **React Hooks:** useState, useEffect  
+- **API Integration:** Live data from FoodChow API  
+- **Reusable Components & Modern CSS**  
+- **Error Handling & Loading States**  
+
+---
+
+## 📁 Project Structure
+```
+src/
+ ├── components/ (Header, Menu, Deals, Cart, Services)
+ ├── styles/App.css
+ ├── utils/api.js
+ ├── App.jsx
+ └── index.js
+```
+
+---
+
+## ⚙️ Setup Instructions
+```bash
+git clone <repo-url>
+cd foodchow-app
+npm install
+npm start
+npm run build
+```
+
+---
+
+## 🌐 API Used
+[FoodChow API](https://www.foodchow.com/api/FoodChowWD/GetRestaurantMenuWDWidget_multi?ShopId=3161)
+
+---
+
+## 💻 Technologies
+- **React.js**
+- **HTML5**
+- **CSS3**
+- **npm**, **Git**, **Create React App**
+
+---
+
+## 🔄 State Management
+- **useState + Props**
+- **Local Storage (optional for cart)**
+
+---
+
+## 📱 Responsive Design
+- **Mobile-first layout**
+- **Flexible grid & touch-friendly buttons**
+
+---
+
+## 🔮 Future Plans
+- Login/Signup  
+- Online Payment  
+- Order Tracking  
+- Favorites & Search  
+- Multi-language Support  
+
+---
+
+## 👨‍💻 Developer Info
+**Developer:** [Parth Purohit]  
+**Email:** [purohitparth653@gmail.com]  
+
+> Built with ❤️ using React.js — *Educational Project (Internship Purpose)*
